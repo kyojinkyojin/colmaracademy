@@ -55,3 +55,58 @@ span, nav {
         width: 100%;
     }
 }
+
+/*Header and nav*/
+
+header {
+    background-color: white;
+  }
+  
+  header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: white;
+  }
+  
+  .colmar {
+    font-size: 1.5rem;
+    font-family: 'Biryani';
+    font-weight: 800;
+  }
+  
+  .academy{
+    color: #A0A0A0;
+    font-size: 1.5rem;
+    font-family: 'Biryani';
+    font-weight: 400;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 3rem;
+    padding-left: 24px;
+  }
+  
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  .links li {
+    display: inline-block;
+    padding-right: 16px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #A0A0A0
+  }
+  
+  nav.mobile {
+    display: none;
+  }
