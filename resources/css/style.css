@@ -1,0 +1,57 @@
+/* Main and default*/
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    color: #505050;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #505050;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #505050;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #505050;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #505050;
+}
+
+p {
+    font-size: 1rem;
+    color: #505050;
+}
+
+span, nav {
+    font-size: 1rem;
+    color: #505050;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .container {
+        width: 100%;
+    }
+}
